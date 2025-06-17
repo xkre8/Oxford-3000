@@ -19,13 +19,20 @@
         }
 
         footer {
-            text-align: center;
-            padding: 20px;
-            color: #ffffff; /* หรือ white */
-            font-size: 0.9em;
-            background-color: rgba(0, 0, 0, 0.3);
+            background-color: rgba(0, 0, 0, 0.7); 
+            color: #ffffff;
+            padding: 20px 0;
             margin-top: 50px;
+            width: 100%;
+            text-align: center;
+            font-size: 0.9em;
             font-weight: 500;
+        }
+        
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
         }
 
         
@@ -580,9 +587,11 @@
         updateStory();
     </script>
 
-    <footer>
-  © 2025 xker8 This work is licensed under a Creative Commons Attribution 4.0 International License.
-    </footer>
+<footer>
+    <div class="footer-content">
+        © 2025 xker8 This work is licensed under a Creative Commons Attribution 4.0 International License.
+    </div>
+</footer>
 
     
 </body>
